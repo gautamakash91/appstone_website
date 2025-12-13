@@ -1,0 +1,583 @@
+[
+  {
+    "id": "Integration",
+    "title": "Integration",
+    "shortDescription": "To adapt to the ever changing world of technology and to leverage these technologies to initiate meaningful impact for both clients and ourselves. Appstone not only provides services to our clients but also outsources resources to enable our clients to continue to do great things",
+    "dummyImage": "/assets/services/ai.jpg",
+    "type": [
+      {
+        "number": "1",
+        "title": "Types of Integration we do!",
+        "btntext": "Request quote"
+      }
+    ],
+    "steps": [
+      {
+        "number": "1",
+        "title": "Firebase",
+        "description": "Firebase is a Backend As a Service platform which removed the need for you to create a backend for your application. With plethora of features like user authentication, hosting, database, storage, ML/AI and much more, you might not need to worry about backend every again"
+      },
+      {
+        "number": "2",
+        "title": "AWS",
+        "description": "Firebase is a Backend As a Service platform which removed the need for you to create a backend for your application. With plethora of features like user authentication, hosting, database, storage, ML/AI and much more, you might not need to worry about backend every again"
+      },
+      {
+        "number": "3",
+        "title": "SendGrid",
+        "description": "Firebase is a Backend As a Service platform which removed the need for you to create a backend for your application. With plethora of features like user authentication, hosting, database, storage, ML/AI and much more, you might not need to worry about backend every again"
+      },
+      {
+        "number": "4",
+        "title": "Twilio",
+        "description": "Firebase is a Backend As a Service platform which removed the need for you to create a backend for your application. With plethora of features like user authentication, hosting, database, storage, ML/AI and much more, you might not need to worry about backend every again"
+      },
+      {
+        "number": "5",
+        "title": "RazorPay",
+        "description": "Firebase is a Backend As a Service platform which removed the need for you to create a backend for your application. With plethora of features like user authentication, hosting, database, storage, ML/AI and much more, you might not need to worry about backend every again"
+      },
+      {
+        "number": "6",
+        "title": "QwikCilver",
+        "description": "Monitor model drift, performance, and scale the system with automated retraining cycles."
+      },
+      {
+        "number": "7",
+        "title": "Onfido",
+        "description": "Monitor model drift, performance, and scale the system with automated retraining cycles."
+      },
+      {
+        "number": "8",
+        "title": "Freshworks and Zoho",
+        "description": "Monitor model drift, performance, and scale the system with automated retraining cycles."
+      }
+    ]
+  },
+  {
+    "id": "Business-Intelligence",
+    "title": "Business Intelligence",
+    "shortDescription": "Business Intelligence is the umbrella term which comprises multiple topics ranging from data collection, storage, and analyzing data from business activities to improve the business performance.",
+    "dummyImage": "/assets/services/business.jpg",
+    "type": [
+      {
+        "number": "1",
+        "title": "What we do on a day to day basis",
+        "btntext": "Request quote"
+      }
+    ],
+
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Data extraction",
+        "description": "Data extraction is the process of obtaining raw data, be it from a transactional database, an API or as primitive as from a flat file."
+      },
+      {
+        "number": "2",
+        "title": "Data Storage",
+        "description": "Extracted data has to be stored somewhere to study. Depending on the kind of data and size of data, we might store it in either No SQL, SQL or in a Big Data environment. This is the staging area for the data. This is a temporary storage, where the data will be transformed."
+      },
+      {
+        "number": "3",
+        "title": "Data Transformation",
+        "description": "The raw data can't be read or analyzed without cleaning or aggregation since the data might contain a lot of noise or extra information which might not be required for analysis."
+      },
+      {
+        "number": "4",
+        "title": "Data Loading",
+        "description": "This can be treated as the last step of the ETL(Extraction, Transform, Load) process. Here we load the data in the data warehouse which will be further used to do all kinds of visualization or data related analysis."
+      },
+      {
+        "number": "5",
+        "title": "Analysis Services",
+        "description": " After the process of data loading is completed we create OLAP cubes which changes the data analysis to drag and drop action and does not require to write any queries in the database. This helps to save time and also simplifies the process."
+      },
+      {
+        "number": "6",
+        "title": "Data Visualization",
+        "description": "This is done on either top of  the Database layer or on top of analysis services. We can leverage the power of tools like Power BI, Tableau and QlikView to visualise and create report."
+      }
+    ],
+
+    "benefits": [
+      "There are multiple benefits which depend on the type of organization. Pointing some of them here.",
+      "This analysis allows the users to make data driven decisions for the future.",
+      "1. Analyzing data from multiple sources",
+      "2. Comparative/variance analysis across periods and applications",
+      "3. NLG libraries to auto-generate comments.",
+      "4. Advance reporting with drill down features.",
+      "5. ML algorithms to do forecasting and predictive analysis.",
+      "6. What-If-Analysis based on BIZ needS.",
+      "7. User Securitization - A person can see only the data that he would be authorized to see."
+    ],
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "Outsourcing",
+    "title": "Outsourcing",
+    "shortDescription": "Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+    "dummyImage": "/assets/services/DataServices.jpg",
+
+    "type": [
+      {
+        "number": "1",
+        "title": "Adding the right technical talent to your team is hard. Especially when you need to scale fast without a lengthy hiring process.",
+        "title2": "We have realised that hiring and resource management is one of the biggest challenges faced by enterprises. With the help of Nextstacks, our e-learning initiative, we have successfully trained a large number of developers and outsourced them to our clients to be part of their growth journey. "
+      }
+    ],
+
+    "servicePoints": [
+      "Exploratory data analysis with statistical techniques",
+      "Correlation, trend, and distribution analysis",
+      "Predictive modeling for business forecasting",
+      "Advanced charts, dashboards, and visual storytelling",
+      "Customer behavior analysis and segmentation",
+      "Data interpretation and business recommendations"
+    ],
+
+    "technologies": ["Python", "R", "SQL", "Excel", "Power BI", "Tableau"],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Data Gathering",
+        "description": "Collect datasets from multiple data sources including cloud, CRM, or offline systems."
+      },
+      {
+        "number": "2",
+        "title": "Data Exploration",
+        "description": "Detect patterns, study distributions, and find insights using EDA methods."
+      },
+      {
+        "number": "3",
+        "title": "Data Modeling",
+        "description": "Develop basic statistical or ML models to find relationships in data."
+      },
+      {
+        "number": "4",
+        "title": "Visualization",
+        "description": "Convert insights into dashboards and charts for easy understanding."
+      },
+      {
+        "number": "5",
+        "title": "Insight Extraction",
+        "description": "Highlight actionable insights for business decision-making."
+      },
+      {
+        "number": "6",
+        "title": "Recommendation Delivery",
+        "description": "Provide strategic recommendations based on the final analysis."
+      }
+    ],
+
+    "benefits": [
+      "Accurate business predictions",
+      "Insightful and actionable reports",
+      "Better understanding of customer behavior",
+      "Improved business efficiency",
+      "Real-time visibility into performance"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "devops-engineering",
+    "title": "DevOps Engineering",
+    "shortDescription": "Build automated CI/CD pipelines and modern cloud infrastructure.",
+    "fullDescription": "Our DevOps solutions improve deployment speed, reliability, and collaboration across teams.",
+    "subHeading": "Empowering Teams with DevOps Practices",
+    "subDescription": "We automate and modernize development pipelines to accelerate product delivery.",
+    "dummyImage": "/assets/services/debops.jpg",
+
+    "servicePoints": [
+      "CI/CD pipeline creation for automated deployments",
+      "Infrastructure automation using Terraform and Ansible",
+      "Containerization using Docker and Kubernetes",
+      "Cloud migration and modernization",
+      "Monitoring with Grafana, Prometheus, ELK",
+      "Full DevSecOps implementation with security workflows"
+    ],
+
+    "technologies": [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Jenkins",
+      "GitLab CI",
+      "AWS"
+    ],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Pipeline Planning",
+        "description": "Define all stages of development and deployment workflows."
+      },
+      {
+        "number": "2",
+        "title": "Infrastructure Automation",
+        "description": "Set up cloud infrastructure using IAC tools."
+      },
+      {
+        "number": "3",
+        "title": "Containerization",
+        "description": "Convert applications into Docker containers."
+      },
+      {
+        "number": "4",
+        "title": "CI/CD Setup",
+        "description": "Automate testing, building, and deployment steps."
+      },
+      {
+        "number": "5",
+        "title": "Monitoring Setup",
+        "description": "Add observability layers for logs, metrics, and alerts."
+      },
+      {
+        "number": "6",
+        "title": "Optimization & Scaling",
+        "description": "Improve DevOps workflows and scale infrastructure as needed."
+      }
+    ],
+
+    "benefits": [
+      "Faster delivery cycles",
+      "Highly reliable deployments",
+      "Reduced infrastructure overhead",
+      "Improved collaboration between teams",
+      "Scalable and secure cloud environments"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing Services & Solutions",
+    "shortDescription": "Grow your online presence and attract more customers.",
+    "fullDescription": "We help businesses scale through SEO, social ads, content marketing, and brand strategy.",
+    "subHeading": "Performance-Driven Online Marketing",
+    "subDescription": "Maximize ROI through targeted campaigns and data-backed strategies.",
+    "dummyImage": "/assets/services/digitalMarketing.jpg",
+
+    "servicePoints": [
+      "SEO optimization with on-page and off-page improvements",
+      "Google Ads and Facebook Ads campaign management",
+      "Content strategy including blogs, creatives, and social posts",
+      "Brand identity and online presence cleanup",
+      "Email marketing automation workflows",
+      "Lead generation funnels for sales growth"
+    ],
+
+    "technologies": [
+      "Google Ads",
+      "Facebook Ads",
+      "SEO Tools",
+      "HubSpot",
+      "Mailchimp"
+    ],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Market Research",
+        "description": "Study competitors, audience behavior, and market trends."
+      },
+      {
+        "number": "2",
+        "title": "Campaign Strategy",
+        "description": "Create a cross-channel marketing plan."
+      },
+      {
+        "number": "3",
+        "title": "Ad Setup",
+        "description": "Build ad creatives and launch high-converting campaigns."
+      },
+      {
+        "number": "4",
+        "title": "Content Execution",
+        "description": "Publish blogs, social posts, email campaigns, and ads."
+      },
+      {
+        "number": "5",
+        "title": "Analytics Monitoring",
+        "description": "Track KPIs, monitor engagement, and analyze data."
+      },
+      {
+        "number": "6",
+        "title": "Optimization & Scaling",
+        "description": "Adjust campaigns for better ROI and scale conversions."
+      }
+    ],
+
+    "benefits": [
+      "More customer engagement",
+      "Higher traffic and leads",
+      "Strong online brand visibility",
+      "Cost-effective growth strategies",
+      "Better targeting and conversion rates"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "it-services",
+    "title": "IT Services & Solutions",
+    "shortDescription": "Secure, scalable, enterprise-grade IT systems.",
+    "fullDescription": "We provide a full ecosystem of IT support including infrastructure, networking, cybersecurity, and consulting.",
+    "subHeading": "Empowering Business with Smart IT",
+    "subDescription": "Modern IT services that help businesses scale safely and efficiently.",
+    "dummyImage": "/assets/services/ItSolution.jpg",
+
+    "servicePoints": [
+      "Cloud architecture setup for enterprises",
+      "Network and infrastructure optimization",
+      "Cybersecurity audits and threat prevention",
+      "Virtualization setup and server management",
+      "IT consulting and managed support",
+      "Backup, recovery, and business continuity planning"
+    ],
+
+    "technologies": ["Cloud Services", "Cybersecurity Tools", "Virtualization"],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "IT Assessment",
+        "description": "Evaluate your current systems for gaps and improvement areas."
+      },
+      {
+        "number": "2",
+        "title": "Infrastructure Setup",
+        "description": "Build cloud or on-prem infrastructure based on your needs."
+      },
+      {
+        "number": "3",
+        "title": "Security Implementation",
+        "description": "Set up cybersecurity monitoring and threat prevention."
+      },
+      {
+        "number": "4",
+        "title": "Integration",
+        "description": "Connect existing tools, business systems, and APIs."
+      },
+      {
+        "number": "5",
+        "title": "Testing",
+        "description": "Ensure performance, stability, and scalability."
+      },
+      {
+        "number": "6",
+        "title": "Support & Maintenance",
+        "description": "Provide continuous monitoring and IT support."
+      }
+    ],
+
+    "benefits": [
+      "Better system security",
+      "Optimized IT performance",
+      "Lower downtime",
+      "Scalable enterprise architecture",
+      "24/7 technical support"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "mobile-app-development",
+    "title": "Mobile App Development",
+    "shortDescription": "High-performance iOS/Android apps with modern UI/UX.",
+    "fullDescription": "We create mobile experiences that are fast, scalable, and user-friendly.",
+    "subHeading": "From Concept to App Store – We Handle It All",
+    "subDescription": "Whether startup or enterprise, we build mobile apps tailored to your goals.",
+    "dummyImage": "/assets/services/mobileapplication.jpg",
+
+    "servicePoints": [
+      "Cross-platform mobile apps using React Native and Flutter",
+      "Custom backend APIs and authentication",
+      "Mobile UI/UX with modern design principles",
+      "Realtime features like chat, maps, payments",
+      "Push notifications and deep linking",
+      "Play Store / App Store deployment & support"
+    ],
+
+    "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Requirement Planning",
+        "description": "Define app features, user flows, and overall roadmap."
+      },
+      {
+        "number": "2",
+        "title": "UI/UX Design",
+        "description": "Create wireframes, prototypes, and high-fidelity app screens."
+      },
+      {
+        "number": "3",
+        "title": "Frontend Development",
+        "description": "Build app screens, animations, and UI functionality."
+      },
+      {
+        "number": "4",
+        "title": "Backend Development",
+        "description": "Create database, API, and authentication modules."
+      },
+      {
+        "number": "5",
+        "title": "Testing",
+        "description": "Check performance, device compatibility, and fix issues."
+      },
+      {
+        "number": "6",
+        "title": "Launch & Support",
+        "description": "Publish app and offer ongoing maintenance."
+      }
+    ],
+
+    "benefits": [
+      "High-performance apps",
+      "Modern user experience",
+      "Better customer engagement",
+      "Scalable architecture",
+      "Faster development cycle"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "software-development",
+    "title": "Software Development Services",
+    "shortDescription": "Custom software designed for your business needs.",
+    "fullDescription": "We build scalable web applications, enterprise solutions, and custom tools.",
+    "subHeading": "End-to-End Development for Future-Ready Businesses",
+    "subDescription": "From idea to deployment, we turn concepts into real products.",
+    "dummyImage": "/assets/services/softwaredevelpment.jpg",
+
+    "servicePoints": [
+      "Full-stack web application development",
+      "Custom enterprise software solutions",
+      "API development and third-party integration",
+      "Automated systems and internal tools",
+      "Performance tuning and code optimization",
+      "Maintenance, updates, and long-term support"
+    ],
+
+    "technologies": ["React", "Node.js", "Python", "Java", "TypeScript"],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Requirement Analysis",
+        "description": "Review project requirements and understand technical scope."
+      },
+      {
+        "number": "2",
+        "title": "Architecture Design",
+        "description": "Plan system architecture and choose technology stack."
+      },
+      {
+        "number": "3",
+        "title": "Development",
+        "description": "Build backend, frontend, database, and workflows."
+      },
+      {
+        "number": "4",
+        "title": "Testing",
+        "description": "Validate performance, security, and compatibility."
+      },
+      {
+        "number": "5",
+        "title": "Deployment",
+        "description": "Deploy system on cloud/servers with CI/CD support."
+      },
+      {
+        "number": "6",
+        "title": "Support",
+        "description": "Maintain system and introduce improvements."
+      }
+    ],
+
+    "benefits": [
+      "Efficient business automation",
+      "Highly scalable software",
+      "Secure architecture",
+      "Reduces manual efforts",
+      "Long-term maintenance and support"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  },
+
+  {
+    "id": "uiux-design",
+    "title": "UI/UX Design",
+    "shortDescription": "Beautiful, intuitive, and user-friendly interface design.",
+    "fullDescription": "We design digital experiences that are modern, functional, and conversion focused.",
+    "subHeading": "Design That Works for Users and Business",
+    "subDescription": "We follow user-first design principles to build engaging experiences.",
+    "dummyImage": "/assets/services/UiUx.jpg",
+
+    "servicePoints": [
+      "User journey mapping and behavioral study",
+      "Wireframes, low-fidelity and high-fidelity prototypes",
+      "UI visual design following latest design systems",
+      "Complete mobile and web design systems",
+      "Animation design for smooth interactions",
+      "Usability tests and user feedback cycles"
+    ],
+
+    "technologies": ["Figma", "Adobe XD", "Sketch", "InVision"],
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "User Research",
+        "description": "Understand audience behavior, goals, and expectations."
+      },
+      {
+        "number": "2",
+        "title": "Wireframing",
+        "description": "Create low-fidelity wireframes for basic layouts."
+      },
+      {
+        "number": "3",
+        "title": "Visual Design",
+        "description": "Develop visual UI with branding and colors."
+      },
+      {
+        "number": "4",
+        "title": "Prototyping",
+        "description": "Convert designs into interactive prototypes."
+      },
+      {
+        "number": "5",
+        "title": "Usability Testing",
+        "description": "Test interface with real users for improvements."
+      },
+      {
+        "number": "6",
+        "title": "Final Delivery",
+        "description": "Deliver design system and assets to development team."
+      }
+    ],
+
+    "benefits": [
+      "Higher user satisfaction",
+      "Better product usability",
+      "Increased conversions",
+      "Stronger visual identity",
+      "Easy-to-use product experience"
+    ],
+
+    "benefitsImage": "/images/group-74.png"
+  }
+]
