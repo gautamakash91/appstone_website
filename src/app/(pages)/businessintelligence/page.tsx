@@ -5,6 +5,7 @@ import { generateMetadata as generateSEOMetadata } from "@/lib/seo";
 import React from "react";
 import Testimonial from "@/components/testimonial";
 import IntegrationPreviousWorks from "@/components/Integration/integration-previous-works";
+import ClientConnect from "@/components/client-connect";
 
 export const metadata = generateSEOMetadata({
   title: "Business Intelligence Services - Data Analytics & Insights",
@@ -33,6 +34,7 @@ const page = () => {
 
       <Testimonial />
       <IntegrationPreviousWorks />
+      <ClientConnect />
     </>
   );
 };

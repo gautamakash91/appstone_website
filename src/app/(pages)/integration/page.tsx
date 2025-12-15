@@ -2,6 +2,7 @@ import IntegrationHero from "@/components/Integration/integration-hero";
 import IntegrationTypes from "@/components/Integration/integration-types";
 import IntegrationPreviousWorks from "@/components/Integration/integration-previous-works";
 import { generateMetadata as generateSEOMetadata } from "@/lib/seo";
+import ClientConnect from "@/components/client-connect";
 
 export const metadata = generateSEOMetadata({
   title: "Third-Party Integration Services - API & System Integration",
@@ -26,6 +27,7 @@ const IntegrationPage = () => {
       <IntegrationHero />
       <IntegrationTypes />
       <IntegrationPreviousWorks />
+      <ClientConnect />
     </>
   );
 };

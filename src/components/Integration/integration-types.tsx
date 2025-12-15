@@ -82,9 +82,7 @@ const IntegrationTypes = () => {
               We Do!
             </p>
           </div>
-          <Button className="w-fit rounded-full bg-[#0059FF] px-5 py-2 text-sm font-semibold text-white shadow-none hover:bg-[#0047d6]">
-            Request Quote
-          </Button>
+        
         </div>
 
         <div className="grid gap-4 sm:gap-5 md:grid-cols-2">

@@ -6,6 +6,7 @@ import { generateMetadata as generateSEOMetadata } from '@/lib/seo'
 import React from 'react'
 import IntegrationPreviousWorks from '@/components/Integration/integration-previous-works'
 import Testimonial from '@/components/testimonial'
+import ClientConnect from '@/components/client-connect'
 
 export const metadata = generateSEOMetadata({
   title: "Mobile App Development Services - iOS & Android Apps",
@@ -34,7 +35,7 @@ const page = () => {
     <MobileAppBusiness />
     <IntegrationPreviousWorks />
     <Testimonial />
-   
+   <ClientConnect />
     </>
   )
 }

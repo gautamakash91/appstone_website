@@ -15,7 +15,7 @@ const ClientConnect: FC = () => {
 
       <div className="relative z-10 mx-auto w-full lg:w-4/3 max-w-7xl px-4 sm:px-6 md:px-8">
         {/* CTA Card */}
-        <div className="relative rounded-3xl bg-gradient-to-br from-[#0059FF] to-[#377DFF96] shadow-[0_8px_40px_rgba(0,0,0,0.08)] border border-white/50 p-8 sm:p-10 md:p-12 lg:p-12 transition-all duration-300 hover:shadow-[0_12px_60px_rgba(0,89,255,0.25)]">
+        <div className="relative rounded-3xl  bg-[#377DFF96] shadow-[0_8px_40px_rgba(0,0,0,0.08)] border border-white/50 p-8 sm:p-10 md:p-12 lg:p-12 transition-all duration-300 hover:shadow-[0_12px_60px_rgba(0,89,255,0.25)]">
           {/* Content */}
           <div className="text-center space-y-5 sm:space-y-6 lg:space-y-6">
             {/* Heading */}
@@ -27,7 +27,7 @@ const ClientConnect: FC = () => {
 
             {/* Description */}
             <p className="text-sm sm:text-base md:text-base lg:text-base text-white/90 leading-relaxed max-w-2xl mx-auto">
-              Anything in mind? Drop your suggestions and we will get back to you shortly.
+            Share your brief with us, and we will evaluate the best way forward.
             </p>
 
             {/* Buttons */}
@@ -36,11 +36,11 @@ const ClientConnect: FC = () => {
               <Button
                 asChild
                 size="lg"
-                className="group relative w-full sm:w-auto px-6 sm:px-8 lg:px-8 py-5 sm:py-6 lg:py-5 text-sm sm:text-base lg:text-base font-semibold bg-[#0059FF] text-white rounded-xl shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 hover:scale-105 transition-all duration-300 ease-out overflow-hidden"
+                className="group relative w-full sm:w-auto px-6 sm:px-8 lg:px-8 py-5 sm:py-6 lg:py-5 text-sm sm:text-base lg:text-base font-semibold bg-[#377DFF] text-white rounded-xl shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 hover:scale-105 transition-all duration-300 ease-out overflow-hidden"
               >
                 <Link href="/contact">
                   <span className="relative z-10">Book A Meeting</span>
-                  <div className="absolute inset-0 bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-[#377DFF] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </Link>
               </Button>
 
@@ -49,7 +49,7 @@ const ClientConnect: FC = () => {
                 asChild
                 variant="outline"
                 size="lg"
-                className="group w-full sm:w-auto px-6 sm:px-8 lg:px-8 py-5 sm:py-6 lg:py-5 text-sm sm:text-base lg:text-base font-semibold border-2 border-[#0059FF] text-[#0059FF] bg-white rounded-xl hover:bg-blue-50 hover:border-[#0059FF] hover:scale-105 hover:shadow-lg hover:shadow-blue-200/20 transition-all duration-300 ease-out"
+                className="group w-full sm:w-auto px-6 sm:px-8 lg:px-8 py-5 sm:py-6 lg:py-5 text-sm sm:text-base lg:text-base font-semibold border-2 border-[#377DFF] text-[#0059FF] bg-white rounded-xl hover:bg-blue-50 hover:border-[#0059FF] hover:scale-105 hover:shadow-lg hover:shadow-blue-200/20 transition-all duration-300 ease-out"
               >
                 <Link href="mailto:info@appstone.in">
                   Drop a Mail

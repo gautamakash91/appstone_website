@@ -6,6 +6,7 @@ import OutsourcingOverview from "@/components/outsourcing/outsourcing-overview";
 import OutsourcingSteps from "@/components/outsourcing/outsourcing-steps";
 import Testimonial from "@/components/testimonial";
 import IntegrationPreviousWorks from "@/components/Integration/integration-previous-works";
+import ClientConnect from "@/components/client-connect";
 
 const OutsourcingHero = () => {
   return (
@@ -46,6 +47,7 @@ const OutsourcingPage = () => {
       <OutsourcingSteps />
       <Testimonial />
       <IntegrationPreviousWorks />
+      <ClientConnect />
     </>
   );
 };

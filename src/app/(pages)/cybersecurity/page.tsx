@@ -6,6 +6,7 @@ import { generateMetadata as generateSEOMetadata } from "@/lib/seo";
 import React from "react";
 import Testimonial from "@/components/testimonial";
 import IntegrationPreviousWorks from "@/components/Integration/integration-previous-works";
+import ClientConnect from "@/components/client-connect";
 
 export const metadata = generateSEOMetadata({
   title: "Cybersecurity Services - Protect Your Digital Assets",
@@ -34,6 +35,7 @@ const page = () => {
       <CybersecurityServices />
       <Testimonial />
       <IntegrationPreviousWorks />
+      <ClientConnect />
     </>
   );
 };

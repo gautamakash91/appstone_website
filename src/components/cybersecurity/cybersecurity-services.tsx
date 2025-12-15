@@ -75,9 +75,7 @@ const CybersecurityServices = () => {
         </div>
 
         <div className="flex justify-center">
-          <Button className="rounded-full bg-[#0059FF] px-6 py-2 text-sm font-semibold text-white shadow-none hover:bg-[#0047d6]">
-            Request Quote
-          </Button>
+         
         </div>
       </div>
     </section>

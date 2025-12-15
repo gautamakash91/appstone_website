@@ -1,4 +1,5 @@
 import IntegrationPreviousWorks from '@/components/Integration/integration-previous-works'
+import ClientConnect from '@/components/client-connect'
 import Testimonial from '@/components/testimonial'
 import WebAppBusiness from '@/components/webapp/webapp-business'
 import WebAppHero from '@/components/webapp/webapp-hero'
@@ -34,6 +35,7 @@ const page = () => {
     <WebAppBusiness />
     <Testimonial />
     <IntegrationPreviousWorks />
+    <ClientConnect />
     </>
   )
 }

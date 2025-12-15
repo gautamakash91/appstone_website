@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import HeroImage from "@/assets/Gemini_Generated_Image_vbietgvbietgvbie.png";
+import HeroImage from "@/assets/Gemini_Generated_Image_r76ts5r76ts5r76t.png";
 import Link from "next/link";
 
 const HeroSection = () => {

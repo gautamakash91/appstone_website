@@ -7,8 +7,8 @@
     "type": [
       {
         "number": "1",
-        "title": "Types of Integration we do!",
-        "btntext": "Request quote"
+        "title": "Types of Integration we do!"
+     
       }
     ],
     "steps": [
@@ -62,8 +62,8 @@
     "type": [
       {
         "number": "1",
-        "title": "What we do on a day to day basis",
-        "btntext": "Request quote"
+        "title": "What we do on a day to day basis"
+   
       }
     ],
 
