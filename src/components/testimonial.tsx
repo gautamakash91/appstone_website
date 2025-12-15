@@ -2,8 +2,9 @@
 
 import Image, { StaticImageData } from "next/image";
 import { FC, useEffect, useState } from "react";
-import { FiArrowLeft, FiArrowRight, FiStar } from "react-icons/fi";
+import { FiArrowLeft, FiArrowRight, FiStar, FiUser } from "react-icons/fi";
 import TonyImage from "@/assets/testimonial/Tony.jpeg";
+import businessman from "@/assets/businessman.png"
 
 interface Testimonial {
   id: number;
@@ -11,7 +12,7 @@ interface Testimonial {
   role: string;
   company: string;
   text: string;
-  avatar: string | StaticImageData;
+  avatar: string | StaticImageData | null;
   rating: number;
 }
 
@@ -23,6 +24,16 @@ const testimonials: Testimonial[] = [
     company: "Paper Rocket Labs, Bangalore",
     text: "Been working with AppStone for a few years now. They have been giving us amazing resources over multiple projects. What I love the most is their consistency in delivering quality code.",
     avatar: TonyImage,
+    rating: 5,
+  },
+
+  {
+    id: 2,
+    name: "Eastern India Hospitality",
+    role: "",
+    company: "",
+    text: "We trust the team for their consistent support and strategic approach. From building a reliable web application to guiding us with marketing strategy and business intelligence, they have been a dependable technology and growth partner.",
+    avatar: null,
     rating: 5,
   },
 ];
@@ -93,13 +104,19 @@ const Testimonial: FC = () => {
               <div className="relative">
                 <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl" />
                 <div className="relative h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 rounded-full overflow-hidden border-4 border-white shadow-lg ring-4 ring-blue-100/50">
-                  <Image
-                    src={currentTestimonial.avatar}
-                    alt={currentTestimonial.name}
-                    width={112}
-                    height={112}
-                    className="h-full w-full object-cover"
-                  />
+                  {currentTestimonial.avatar ? (
+                    <Image
+                      src={currentTestimonial.avatar}
+                      alt={currentTestimonial.name}
+                      width={112}
+                      height={112}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center bg-blue-50 text-blue-500">
+                      <FiUser className="h-10 w-10 sm:h-12 sm:w-12" />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

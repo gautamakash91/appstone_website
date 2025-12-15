@@ -5,10 +5,12 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import HeroImage from "@/assets/Gemini_Generated_Image_r76ts5r76ts5r76t.png";
 import Link from "next/link";
+import { BookMeetingModal } from "@/components/book-meeting-modal";
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
+  const [showBookingModal, setShowBookingModal] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
@@ -17,7 +19,7 @@ const HeroSection = () => {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-blue-100/20"
+      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-white via-blue-50/30 to-blue-100/20"
     >
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -41,7 +43,7 @@ const HeroSection = () => {
             }}
           >
             We Build Digital Solutions That{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
               Helps You Grow
             </span>{" "}
             Your Business Faster
@@ -71,14 +73,11 @@ const HeroSection = () => {
           >
             <Button
               size="lg"
-              className="group relative px-8 py-6 text-base sm:text-base md:text-base lg:text-base font-semibold bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:scale-105 transition-all duration-300 ease-out overflow-hidden"
+              onClick={() => setShowBookingModal(true)}
+              className="group relative px-8 py-6 text-base sm:text-base md:text-base lg:text-base font-semibold bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:scale-105 transition-all duration-300 ease-out overflow-hidden"
             >
-              <Link
-                href="/contact"
-              >
-               <span className="relative z-10">Book A Meeting</span>
-              </Link>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <span className="relative z-10">Book A Meeting</span>
+              <div className="absolute inset-0 bg-linear-to-r from-blue-700 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Button>
 
             <Button
@@ -102,7 +101,7 @@ const HeroSection = () => {
             style={{ transitionDelay: "500ms" }}
           >
             {/* Glow effect behind image */}
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-400/20 via-blue-500/30 to-blue-400/20 rounded-3xl blur-3xl scale-110 animate-pulse" />
+            <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/20 via-blue-500/30 to-blue-400/20 rounded-3xl blur-3xl scale-110 animate-pulse" />
 
             {/* Image container with floating animation */}
             <div className="relative rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl shadow-blue-500/20 bg-white/50 backdrop-blur-sm border border-white/50 animate-float">
@@ -127,6 +126,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
+      <BookMeetingModal open={showBookingModal} onClose={() => setShowBookingModal(false)} />
     </section>
   );
 };

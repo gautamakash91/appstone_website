@@ -1,10 +1,13 @@
 "use client";
 
-import { FC } from "react";
+import { FC, useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { BookMeetingModal } from "@/components/book-meeting-modal";
 
 const ClientConnect: FC = () => {
+  const [showBookingModal, setShowBookingModal] = useState(false);
+
   return (
     <section className="relative overflow-hidden bg-white py-16 sm:py-20 md:py-24 lg:py-10">
       {/* Background decorative elements */}
@@ -34,14 +37,12 @@ const ClientConnect: FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 pt-2">
               {/* Primary Button - Blue with white text */}
               <Button
-                asChild
                 size="lg"
+                onClick={() => setShowBookingModal(true)}
                 className="group relative w-full sm:w-auto px-6 sm:px-8 lg:px-8 py-5 sm:py-6 lg:py-5 text-sm sm:text-base lg:text-base font-semibold bg-[#377DFF] text-white rounded-xl shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 hover:scale-105 transition-all duration-300 ease-out overflow-hidden"
               >
-                <Link href="/contact">
-                  <span className="relative z-10">Book A Meeting</span>
-                  <div className="absolute inset-0 bg-[#377DFF] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </Link>
+                <span className="relative z-10">Book A Meeting</span>
+                <div className="absolute inset-0 bg-[#377DFF] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Button>
 
               {/* Secondary Button - White with blue border and blue text */}
@@ -59,6 +60,8 @@ const ClientConnect: FC = () => {
           </div>
         </div>
       </div>
+
+      <BookMeetingModal open={showBookingModal} onClose={() => setShowBookingModal(false)} />
     </section>
   );
 };
