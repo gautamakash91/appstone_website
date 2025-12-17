@@ -5,6 +5,7 @@ import { FC, useEffect, useState } from "react";
 import { FiArrowLeft, FiArrowRight, FiStar, FiUser } from "react-icons/fi";
 import TonyImage from "@/assets/testimonial/Tony.jpeg";
 import businessman from "@/assets/businessman.png"
+import Sivasish from "@/assets/testimonial/1759911140531.jpeg"
 
 interface Testimonial {
   id: number;
@@ -33,7 +34,17 @@ const testimonials: Testimonial[] = [
     role: "",
     company: "",
     text: "We trust the team for their consistent support and strategic approach. From building a reliable web application to guiding us with marketing strategy and business intelligence, they have been a dependable technology and growth partner.",
-    avatar: null,
+    avatar: businessman,
+    rating: 5,
+  },
+
+  {
+    id: 3,
+    name: "Sivasish Bebartta",
+    role: "CEO",
+    company: "9c technology labs pvt ltd",
+    text: "Working with Appstone’s team was an excellent experience—they delivered a robust ERP system along with seamless mobile applications tailored to our business needs.",
+    avatar: Sivasish,
     rating: 5,
   },
 ];
