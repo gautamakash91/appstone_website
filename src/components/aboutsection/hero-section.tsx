@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import AboutImage from "@/assets/about.png";
+import AboutImage from "@/assets/digital-blue-hud-interface-team-concept.jpg";
 
 const AboutHeroSection = () => {
   return (
@@ -38,7 +38,7 @@ const AboutHeroSection = () => {
               src={AboutImage}
               alt="Appstone Office"
               width={1920}
-              height={1080}
+              height={1100}
               className="w-full h-auto object-contain block"
               priority
             />
